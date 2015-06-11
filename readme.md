@@ -27,7 +27,7 @@ Modernizr.on('testname', function( result ) {
 });
 ```
 
-We guarantee that we'll only invoke your function once (per time that you call `on`). We are currently not exposing
+It is a guaruntee that we'll only invoke your function once (per time that you call `on`). We are currently not exposing
 a method for exposing the `trigger` functionality. Instead, if you'd like to have control over async tests, use the
 `src/addTest` feature, and any test that you set will automatically expose and trigger the `on` functionality.
 
